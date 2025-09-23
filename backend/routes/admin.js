@@ -1,6 +1,6 @@
 const express = require('express');
 const auth = require('../middleware/auth');
-const CriteriaData = require('../models/CriteriaData');w
+const CriteriaData = require('../models/CriteriaData');
 
 const router = express.Router();
 
