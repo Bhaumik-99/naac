@@ -5,7 +5,7 @@ const multer = require('multer');
 const mongoose = require('mongoose');
 const connectDB = require('./config/db');
 const { createDefaultSOETUser } = require('./utils/seedData');
-s
+
 // Load env vars first
 dotenv.config();
 
