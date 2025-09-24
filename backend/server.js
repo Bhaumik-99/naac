@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const multer = require('multer');
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');s
 const connectDB = require('./config/db');
 const { createDefaultSOETUser } = require('./utils/seedData');
 
