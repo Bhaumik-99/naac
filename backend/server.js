@@ -14,7 +14,7 @@ console.log('Environment:', process.env.NODE_ENV || 'development');
 console.log('Port:', process.env.PORT || 5000);
 console.log('MongoDB URI:', process.env.MONGODB_URI ? 'Set' : 'Not set');
 console.log('JWT Secret:', process.env.JWT_SECRET ? 'Set' : 'Not set');
-console.log('Cloudinary Config:', { o 
+console.log('Cloudinary Config:', {  
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME ? 'Set' : 'Not set',
   api_key: process.env.CLOUDINARY_API_KEY ? 'Set' : 'Not set',
   api_secret: process.env.CLOUDINARY_API_SECRET ? 'Set' : 'Not set'
