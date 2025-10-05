@@ -7,7 +7,7 @@ const connectDB = require('./config/db');
 const { createDefaultSOETUser } = require('./utils/seedData');
 
 // Load env vars first
-dotenv.config()
+dotenv.config() ;
 
 console.log('=== SERVER STARTUP ===');
 console.log('Environment:', process.env.NODE_ENV || 'development');
